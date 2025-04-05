@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   s.subspec 'https' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                              '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'ffmpeg-kit-ios-https', "6.0"
+      ss.dependency 'ffmpeg-kit-ios-https-alt', "6.0"
       ss.ios.deployment_target = '12.1'
   end
 
